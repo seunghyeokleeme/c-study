@@ -17,6 +17,16 @@ m, p 는 integer constant, X is letter이다. m, p는 optional
 
 - m(minimum field width)
 - p(precision)
-  - d: the minimum number of digits
-  - e, f: how many digits should appear after the decimal point
-- %f
+  - %d: the minimum number of digits
+  - %e, %f: how many digits should appear after the decimal point
+  - %g: %e or %f
+
+## Esacpe Sequences
+
+- `\"`
+- `\a`
+- `\b`
+- `\n`
+- `\t`
+
+## Scanf function
